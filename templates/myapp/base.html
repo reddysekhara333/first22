@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>base html</title>
+
+</head>
+<body>
+<div class="navbar navbar default navabar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">Django naresh it</a>
+
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/">home</a></li>
+            <li><a href="h/">sportes</a></li>
+            <li><a href="/hi">course</a> </li>
+        </ul>
+    </div>
+</div>
+{% block body-block %}
+{% endblock %}
+
+</body>
+</html>
